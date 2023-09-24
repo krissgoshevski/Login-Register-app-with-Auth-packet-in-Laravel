@@ -1,3 +1,22 @@
+Login-Register Application with default Authentication from Laravel
+
+SKILLS: SCSS, Laravel, Blade, MySQL db
+
+Within this app is included:
+
+- controllers
+- custom middlewares
+- validations
+- every route is protected with middleware, for example is user is registered as editor he cannot go to the routes of admin or regular users
+
+ 1. ADMIN page/route - if registered user has role admin, then he can change the Status of the users in Active or Inactive, and can Delete the users
+ 2. Editor page/route - if registered user has role editor, then he can change only the status of himself, he cannot change the Status value of other users
+ 3. Regular page/route - where is listed all regular users with their status Active or Inactive.
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
