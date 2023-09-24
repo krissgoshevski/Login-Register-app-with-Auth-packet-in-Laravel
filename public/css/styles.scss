@@ -1,0 +1,34 @@
+.disabled-link {
+    pointer-events: none;
+    /* Onemogućava klikanje linka */
+    color: gray;
+    /* Možete promeniti boju teksta da bude manje uočljiva ili po vašem izboru */
+    text-decoration: none;
+    /* Opciono: uklonite podvučeni stil ako želite */
+    cursor: not-allowed;
+    /* Prikazuje kursor "not-allowed" za vizuelni znak da je link onemogućen */
+
+}
+
+
+table {
+    border-collapse: collapse;
+    /* Spaja granice ćelija kako biste dobili efekat granica */
+    width: 100%;
+    /* Podesite širinu tabele prema vašim potrebama */
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    /* Postavlja granicu za ćelije sa bojom sive (#ddd) */
+    padding: 8px;
+    /* Dodaje prostor unutar ćelija za bolji izgled */
+    text-align: left;
+    /* Poravnavanje teksta u ćelijama (levo) */
+}
+
+th {
+    background-color: #f2f2f2;
+    /* Dodaje boju pozadine za zaglavlje tabele */
+}
